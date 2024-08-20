@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('inicio.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.login a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.login a:hover {
+    color: #ddd;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+h1{
+    text-align: justify;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    padding: 20px;
+    width: 400px;
+    margin: auto 0;
+    border-radius: 8px;
+}
+
+#introduccion, #objetivos {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

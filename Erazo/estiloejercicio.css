@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    background-image: url(FONDO.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+}
+.login a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.login a:hover {
+    color: #ddd;
+}
+.exercise {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.exercise img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+.steps {
+    list-style-type: decimal;
+}
+header {
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-size: cover;
+        width: 100%;
+        box-sizing: border-box; 
+        position: fixed; 
+        top: 0;
+        left: 0;
+        z-index: 1000; 
+}
+
+.logo img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}

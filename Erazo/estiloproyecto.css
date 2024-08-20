@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('FONDO.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.login a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.login a:hover {
+    color: #ddd;
+}
+.project {
+    margin: 20px 10px 30px 20px; /* Espacio arriba y abajo de cada proyecto */
+    padding: 20px; /* Espacio interior dentro de cada proyecto */
+    border: 1px solid #ddd; /* Borde gris claro alrededor de cada proyecto */
+    border-radius: 8px; /* Redondeo ligero de las esquinas */
+    background-color: #f9f9f9; /* Fondo suave para cada sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    width: 97%; /* Ocupa todo el ancho disponible */
+    box-sizing: border-box; /* Incluye padding y borde dentro del ancho total */
+}
+
+.project img {
+    display: block;
+    margin: 20 auto 0px; /* Centra la imagen y añade espacio debajo de ella */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.project h2 {
+    text-align: left; /* Alinea el título a la izquierda */
+    margin-top: 0; /* Elimina el margen superior */
+    margin-bottom: 15px; /* Añade espacio debajo del título */
+}
+
+.project p, .project ol {
+    text-align: justify; /* Justifica el texto de los párrafos y listas */
+    line-height: 1.6; /* Mejora la legibilidad aumentando la altura de línea */
+}
+
+.project .interactive {
+    text-align: left; /* Alinea el video a la izquierda */
+    margin-top: 20px; /* Añade espacio arriba del video */
+}
+
+
+
